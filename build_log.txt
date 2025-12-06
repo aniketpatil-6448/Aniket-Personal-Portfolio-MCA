@@ -1,0 +1,12 @@
+
+> portfolio@0.0.0 build
+> tsc -b && vite build
+
+src/components/Hero.tsx(4,22): error TS7016: Could not find a declaration file for module 'react-scroll'. 'C:/Users/Dell/Documents/GitHub/Aniket-Personal-Portfolio-MCA/node_modules/react-scroll/modules/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react-scroll` if it exists or add a new declaration (.d.ts) file containing `declare module 'react-scroll';`
+src/components/Navbar.tsx(3,22): error TS7016: Could not find a declaration file for module 'react-scroll'. 'C:/Users/Dell/Documents/GitHub/Aniket-Personal-Portfolio-MCA/node_modules/react-scroll/modules/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react-scroll` if it exists or add a new declaration (.d.ts) file containing `declare module 'react-scroll';`
+src/components/Navbar.tsx(4,30): error TS6133: 'Github' is declared but its value is never read.
+src/components/Navbar.tsx(4,38): error TS6133: 'Linkedin' is declared but its value is never read.
+src/components/Navbar.tsx(4,48): error TS6133: 'Mail' is declared but its value is never read.
+src/components/Projects.tsx(11,11): error TS6133: 'allTech' is declared but its value is never read.
